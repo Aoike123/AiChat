@@ -5,7 +5,7 @@ import torch
 app = FastAPI()
 
 # 模型路径
-model_path = "D:/AOIKE/aiChat/deepseek/Models/deepseek-R1-1.5B-magic_couch"
+model_path = "D:/AOIKE/aiChat/AIDemo/ai/Models/deepseek-R1-1.5B-magic_couch"
 
 # 加载 tokenizer （分词器）
 tokenizer = AutoTokenizer.from_pretrained(model_path)
